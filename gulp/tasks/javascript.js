@@ -35,4 +35,4 @@ gulp.task('javascript', function () {
     // create a merged stream
     return es.merge(tasks);
   }); // glob
-}); // so you can run `gulp js` to build the file
+});
